@@ -712,7 +712,8 @@ body.light-theme .code-content {
     color: var(--primary);
 }
 
-.featured-badge {
+.featured-badge,
+.contributions-badge {
     display: inline-flex;
     align-items: center;
 
