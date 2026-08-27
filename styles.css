@@ -713,13 +713,12 @@ body.light-theme .code-content {
 }
 
 .featured-badge,
-.contributions-badge {
+.contribution-badge {
     display: inline-flex;
     align-items: center;
 
     padding: 4px 9px;
-
-    background: rgba(253, 135, 0, 0.12);
+    
     border: 1px solid rgba(253, 135, 0, 0.32);
     border-radius: 999px;
 
@@ -730,6 +729,14 @@ body.light-theme .code-content {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     white-space: nowrap;
+}
+
+.featured-badge {
+    background: rgba(253, 135, 0, 0.12);
+}
+
+.contribution-badge {
+    background: rgba(124, 142, 67, 0.12);
 }
 
 .project-description {
