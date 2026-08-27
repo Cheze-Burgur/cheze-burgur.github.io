@@ -123,6 +123,14 @@ class Portfolio {
                     `
                     : "";
 
+                const contributions = project.contributions
+                    ? `
+                        <span class="contribution-badge">
+                            Contributions Open
+                        </span>
+                    `
+                    : "";
+
                 const preview = project.image
                     ? `
                         <img
@@ -182,6 +190,8 @@ class Portfolio {
                                 ${version}
 
                                 ${status}
+
+                                ${contributions}
 
                             </div>
 
@@ -251,7 +261,7 @@ class Portfolio {
 const projects = [
     {
         title: "BatPU Emulator",
-        version: "1.6",
+        version: "1.7",
         description: "A browser-based CPU emulator with an assembler, register and memory displays, I/O devices, and debugging controls.",
 
         image: "https://github.com/Cheze-Burgur/BatPU-Emulator---Web-Port/raw/main/images/readme/readme-main.png",
@@ -270,7 +280,8 @@ const projects = [
         demo: "https://cheze-burgur.github.io/BatPU-Emulator---Web-Port/",
 
         featured: true,
-        status: "Featured"
+        status: "Featured",
+        contributions: true
     },
 
     {
@@ -289,22 +300,6 @@ const projects = [
             "https://github.com/Cheze-Burgur/Chess",
 
         demo: "https://cheze-burgur.github.io/Chess/",
-
-        featured: false,
-        status: "WIP"
-    },
-
-    {
-        title: "Collab",
-        description: "GD collab I'm hosting. Currently in the building phase. ID: Unreleased.",
-
-        symbol: "ΔΔΔ",
-
-        tags: [
-            "gmd"
-        ],
-
-        github: "https://github.com/Cheze-Burgur/collab",
 
         featured: false,
         status: "WIP"
