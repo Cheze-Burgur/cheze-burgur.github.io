@@ -10,6 +10,7 @@
     --primary: #58a6ff;
     --primary-dark: #2388ed;
     --secondary: #fd8700;
+    --alt-secondary: #7c8e43;
 
     --text: #f0f6fc;
     --muted: #8b949e;
@@ -719,11 +720,8 @@ body.light-theme .code-content {
 
     padding: 4px 9px;
     
-    border: 1px solid rgba(253, 135, 0, 0.32);
     border-radius: 999px;
-
-    color: var(--secondary);
-
+    
     font-size: 0.7rem;
     font-weight: 800;
     letter-spacing: 0.05em;
@@ -733,10 +731,14 @@ body.light-theme .code-content {
 
 .featured-badge {
     background: rgba(253, 135, 0, 0.12);
+    border: 1px solid rgba(253, 135, 0, 0.32);
+    color: var(--secondary);
 }
 
 .contribution-badge {
     background: rgba(124, 142, 67, 0.12);
+    border: 1px solid rgba(124, 142, 67, 0.32);
+    color: var(--alt-secondary);
 }
 
 .project-description {
