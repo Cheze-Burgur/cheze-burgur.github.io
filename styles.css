@@ -549,9 +549,15 @@ body.light-theme .code-content {
     border: 1px solid var(--border);
     border-radius: 12px;
 
-    color: transparent;
-    text-shadow: 0 0 0 var(--primary);
+    color: var(--primary);
     font-weight: 800;
+}
+
+.fact-icon svg {
+    width: 24px;
+    height: 24px;
+    display: block;
+    fill: currentColor;
 }
 
 .fact-title {
