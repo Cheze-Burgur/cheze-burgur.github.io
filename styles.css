@@ -470,11 +470,6 @@ body.light-theme .button-primary {
     line-height: 1.9;
 }
 
-body.light-theme .code-content {
-    color: #24292f;
-    font-weight: bold;
-}
-
 .code-line {
     display: block;
     white-space: pre-wrap;
@@ -498,6 +493,31 @@ body.light-theme .code-content {
 
 .code-comment {
     color: var(--muted);
+}
+
+body.light-theme .code-content {
+    color: #24292f;
+    font-weight: bold;
+}
+
+body.light-theme .code-keyword {
+    color: #cf222e;
+}
+
+body.light-theme .code-name {
+    color: #8250df;
+}
+
+body.light-theme .code-string {
+    color: #0a3069;
+}
+
+body.light-theme .code-property {
+    color: #0550ae;
+}
+
+body.light-theme .code-comment {
+    color: #57606a;
 }
 
 /* ===== About ===== */
