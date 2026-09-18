@@ -472,6 +472,7 @@ body.light-theme .button-primary {
 
 body.light-theme .code-content {
     color: #24292f;
+    font-weight: bold;
 }
 
 .code-line {
