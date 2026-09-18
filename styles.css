@@ -549,7 +549,8 @@ body.light-theme .code-content {
     border: 1px solid var(--border);
     border-radius: 12px;
 
-    color: var(--primary);
+    color: transparent;
+    text-shadow: 0 0 0 var(--primary);
     font-weight: 800;
 }
 
